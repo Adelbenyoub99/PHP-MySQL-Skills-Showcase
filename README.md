@@ -1,19 +1,19 @@
-## List and rate movies and series
+# List and rate movies and series
 
--- 
-# PHP-MySQL-Skills-Showcase
+--- 
+## PHP-MySQL-Skills-Showcase
 This project showcases my PHP-MySQL skills acquired during my certification. It includes practical demonstrations of key concepts and features.
 
---
-# Table of Contents
+---
+## Table of Contents
 1. Introduction
 2. Prerequisites
 3. Installation
 4. Features
 5. Future Improvements
 
--- 
-# Introduction
+--- 
+## Introduction
 This project is a web application that allows users to:
 
 - Manage user accounts (authentication and registration).
@@ -22,8 +22,8 @@ This project is a web application that allows users to:
 - Rate and comment on articles.
 - The backend is developed in PHP using PDO for data management, and the frontend utilizes HTML, CSS, and Bootstrap for a responsive user interface.
 
--- 
-# Prerequisites
+--- 
+## Prerequisites
 Before starting, ensure that you have the following installed on your system:
 
 - PHP 8.0 or higher
@@ -31,8 +31,8 @@ Before starting, ensure that you have the following installed on your system:
 - Apache or Nginx server (with PHP support)
 - Composer (optional, for future dependency management)
 
--- 
-# Installation
+---
+## Installation
 1. Clone the repository:
 git clone https://github.com/your-username/project-name.git  
 cd project-name  
@@ -54,8 +54,8 @@ $dbPass = 'your_password';
 - Access the application in your browser:
 http://localhost/project-name 
 
--- 
-# Features
+---
+## Features
 1. Authentication:
 Secure login and registration using password_hash and password_verify.
 
@@ -68,17 +68,17 @@ Users can rate each article on a scale of 1-5.
 4. Dynamic Search:
 Real-time article search powered by AJAX.
 
--- 
-# Future Improvements
+--- 
+## Future Improvements
 - Implement a dynamic router to replace static URLs.
 - Add automated testing (PHPUnit).
 - Enhance security (CSRF tokens, input validation with a library).
 - Add multi-language support for the user interface.
 
--- 
-# License
+--- 
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
---
+---
 Feel free to adapt this template to fit your project’s specifics. 🎉
 
